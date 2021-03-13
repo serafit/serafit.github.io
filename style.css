@@ -1,0 +1,317 @@
+body {
+	margin: 0;
+	color: #333;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-family: "-apple-system",BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+}
+
+html, body {
+	height: 100%;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+.layout {
+	position: relative;
+	min-width: 1024px;
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	background: #c6d2e8;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.layout_row {
+	width: 100%;
+}
+
+.TMpanel {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	height: 48px;
+	min-width: 1024px;
+	font-family: "-apple-system",BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+	background: #303b44;
+	box-sizing: border-box;
+}
+
+.TMpanel .container {
+	height: 48px;
+	margin: auto;
+	overflow: hidden;
+	text-align: left;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 32px;
+	min-width: 1024px;
+	max-width: 1164px;
+}
+
+.logo {
+	vertical-align: middle;
+	position: relative;
+	display: inline-flex;
+}
+
+a {
+	color: #548eaa;
+	background-color: transparent; 
+}
+
+svg {
+	overflow: hidden;
+	fill: currentColor;
+	stroke: inherit;
+}
+
+.logo-huego {
+	display: inline-flex;
+}
+
+.TMpanel .logo-huego .logo {
+	color: #9d1e1e;
+}
+
+.TMpanel .projects-dropdown {
+	margin-left: 8px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-left: 1px solid rgba(255,255,255,.24);
+    height: 24px;
+    padding: 0 8px;
+    cursor: pointer;
+    transition: all linear .5s;
+}
+
+.TMpanel .container .menu_ept {
+	white-space: normal;
+	height: 48px;
+	line-height: 38px;
+}
+
+.white {
+	color: #c8d0d9;
+}
+
+.bmenu_inner {
+	margin-right: 0;
+	margin-left: auto;
+	display: flex;
+	align-items: center; 
+}
+
+.bmenu_slink {
+	white-space: normal;
+	display: flex;
+	align-items: center;
+	height: 48px;
+	line-height: 38px;
+}
+
+.row {	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: #abb9d3;
+	border-bottom: 1px solid #d5dddf;
+	width: 100%;
+}
+
+.row_nowbar {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: #fff;
+	border-bottom: 1px solid #d5dddf;
+	width: 100%;
+}
+
+.layout_cell {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 32px;
+	min-width: 1024px;
+	min-height: 64px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	height: 56px;
+	box-sizing: border-box;
+}
+
+.qwerty {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.qwerty_section_left {
+	flex: 1 1 0%;
+}
+
+#links {
+
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.links-item {
+	margin-right: 20px;
+	height: 100%; 
+	width: 59px; 
+	height: 21px;
+}
+
+.naver-link {
+	display: inline-flex;
+	align-items: center;
+	box-sizing: border-box;
+	height: 100%;
+	color: #909090;
+	font-weight: 500;
+	font-size: 14px;
+	font-family: "-apple-system",BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+.content .content_main {
+	background: #2c303a;
+	border-radius: 6px;
+	padding: 3rem;
+	position: relative;
+	z-index: 1;
+}
+
+h2 {
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+} 
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-size: center;
+	margin: 0 0 1em 0;
+}
+
+.row_out_body {
+	height: auto;
+	flex: 1 0 auto;
+}
+
+.row_out {
+	width: 100%
+}
+
+.row_cell {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 32px;
+	min-width: 1024px;
+	max-width: 1164px;
+}
+
+.row_cell_body {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.column-post {
+	margin-bottom: 20px;
+}
+
+.column-rapper {
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+
+.js-wrapper {
+	display: flex;
+}
+
+.section {
+	display: block;
+}
+
+.content_left {
+	float: left;
+	box-sizing: border-box;
+	padding-right: 320px;
+	width: 100%;
+	min-height: 1px;
+}
+
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+.sidebar {
+	float: left;
+	margin-left: -300px;
+	width: 300px;
+}
+
+
+.HomepageTeams_root-HXpGh .home-team-wrapper {
+background: #303b44;
+border-radius: 6px;
+padding: 3rem;
+position: relative;
+z-index: 1;
+}
+
+.red {
+	color: #8a0505;
+}
+
+.layout__elevator {
+    display: block;
+}
+.layout__elevator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 60px;
+    height: 100%;
+    color: #d5dddf;
+    text-align: center;
+    transform: translateY(0);
+    will-change: transform;
+}
